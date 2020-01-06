@@ -8384,7 +8384,8 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .1;
     width: 50%;
-    background: #6495ed; }
+    background: #6495ed;
+    z-index: -2; }
   .hero-wrap .text {
     width: 100%; }
 
@@ -8445,7 +8446,7 @@ h1, h2, h3, h4, h5,
   left: 0;
   right: 0;
   bottom: 120px;
-  z-index: 2; }
+  z-index: -1; }
 
 .mouse-icon {
   width: 70px;
