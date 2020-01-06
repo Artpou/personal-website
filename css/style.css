@@ -8388,6 +8388,9 @@ h1, h2, h3, h4, h5,
     z-index: -2; }
   .hero-wrap .text {
     width: 100%; }
+  .hero-wrap .col-lg-8 {
+    z-index: 2;
+  }
 
 .slider-text .subheading {
   text-transform: uppercase;
@@ -8446,7 +8449,7 @@ h1, h2, h3, h4, h5,
   left: 0;
   right: 0;
   bottom: 120px;
-  z-index: -1; }
+  z-index: 1; }
 
 .mouse-icon {
   width: 70px;
